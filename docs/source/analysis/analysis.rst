@@ -29,9 +29,9 @@ For the analysis options implemented, the following parameters are potentially n
    :header-rows: 1
 
    * - element
-     - mass [amu]
-     - vdW radius [ang]
-     - covalent radius [ang]
+     - mass [u]
+     - vdW radius [&Aring;]
+     - covalent radius [&Aring;]
    * - H
      - 1.008
      - 1.20
