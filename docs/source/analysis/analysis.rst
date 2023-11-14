@@ -30,8 +30,8 @@ For the analysis options implemented, the following parameters are potentially n
 
    * - element
      - mass [u]
-     - vdW radius [&Aring;]
-     - covalent radius [&Aring;]
+     - vdW radius [\u212B]
+     - covalent radius [\u212B]
    * - H
      - 1.008
      - 1.20
