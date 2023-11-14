@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'CONAN'
+copyright = '2023, Kirchner Group'
+author = 'Leonard Dick'
 
-release = '0.1'
-version = '0.1.0'
+release = '1.0.0'
+version = '1.0.0'
 
 # -- General configuration
 
@@ -16,8 +16,7 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
-]
+    'sphinx.ext.intersphinx']
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
