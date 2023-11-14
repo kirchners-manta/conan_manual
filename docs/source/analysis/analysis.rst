@@ -24,6 +24,11 @@ For the analysis options implemented, the following parameters are potentially n
 * van der Waals [1]_ or covalent [2]_ radii of the elements
 * number of increments (set by the user)
 
+.. note::
+
+        The user is prompted to choose between the van der Waals radii and covalent radii.
+        For all analysis options, the listed atomic masses are used.
+
 .. list-table:: 
    :widths: 25 25 25 25 
    :header-rows: 1
@@ -103,8 +108,7 @@ For the analysis options implemented, the following parameters are potentially n
 
 .. note::
 
-        The user is prompted to choose between the van der Waals radii and covalent radii of the elements.
-        For all analysis functions, the listed atomic masses are used.
+        The masses and radii of Drude particles (D) and dummy atoms (X) are set to zero, to not interfere with the molecular recognition of the program.
 
 
 .. [1] A. Bondi, van der Waals Volumes and Radii, J. Phys. Chem. 68 (3) (1964) 441-451.
