@@ -10,11 +10,11 @@ The trajectory analysis tool is automatically called, when a trajectory is loade
 .. note::
     The trajectory has to either xyz, pdb or LAMMPS (.lammpstrj or .lmp) format. 
     If the trajectory is in xyz format, the user is prompted to enter the simulation box dimensions, as they are needed for some analyses.
-    In the case of a pdb and LAMMPS file, the box dimensions are read directly from the file.
+    In the case of the pdb and LAMMPS format, the box dimensions are read directly from the trajectory.
 
 As a first step, the program identifies all rigid structures in the trajectory and characterizes them. 
 The identification of solid structures is achieved by comparing the fist two frames of a given trajectory and identify all frozen atoms.
-The structures therefore have to stay frozen over the course of the simulation
+The structures therefore have to stay frozen over the course of the simulation.
 The trajectory analysis part is divided into two main sections, the picture mode and the analysis mode, which includes all the analysis functions implemented.
 All modi will be discussed in further detail in the following sections.
 
