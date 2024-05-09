@@ -1,12 +1,6 @@
 Structures
 =================
 
-This mode is automatically started, when the ``-c`` flag is added when starting the program.
-
-.. code-block:: none
-
-    $ python3.10 CONAn.py -c
-
 The mode is used to build carbon and boron nitride structures from scratch and print the xyz structures to a file.
 
 The program can create the following structures:
@@ -14,8 +8,53 @@ The program can create the following structures:
 * Carbon nanotubes (CNTs) and boron nitride nanotubes of arbitrary length and radius in zigzag and armchair conformations.
 * Walls of arbitrary size in x and y directions. Multiple layers can be constructed in ABA stacking.
 * The CNTs and carbon walls can be combined to form a 'pore' structure. Either as an open tube with walls on both sides, or with the tube closed off on one side, and a wall on the other side.
-* Carbon structures can be doped with graphitic nitrogen.
 * All structures are designed to satisfy periodic boundary conditions wherever possible.
+* Structures can be functionalized using user-defined groups
+
+This mode is started with the ``-c`` flag.
+
+.. code-block:: none
+
+    $ python3.10 CONAN.py -c
+
+Once the mode is started, a console opens that takes in commands to build the structures:
+
+.. code-block:: none
+
+   ###########################################
+   ##                                       ##
+   ##   #####  #####  #   #  #####  #   #   ##
+   ##   #      #   #  ##  #  #   #  ##  #   ##
+   ##   #      #   #  # # #  #####  # # #   ##
+   ##   #      #   #  #  ##  #   #  #  ##   ##
+   ##   #####  #####  #   #  #   #  #   #   ##
+   ##                                       ##
+   ###########################################
+
+   Find the documentation on the CONAn website: http://con-an.readthedocs.io
+   If you use CONAN in your research, please cite the following paper:
+   doi.org/10.1021/acs.jcim.3c01075
+
+   CONAN-build:
+
+It is recommended to use VMD(Visual Molecular Dynamics) in conjunction
+with the the build-tool. If VMD is installed it can be started using the ``vmd`` command. Make sure that no instance of VMD is running
+when CONAN is started.
+
+.. code-block:: none
+
+   CONAN-build: vmd
+
+once VMD is started, any changes to the structures are shown in the VMD window. If VMD is unavailable, the structures are
+saved in ``structures/structure.vmd``. All available commands and their usage are listed here:
+
+.. toctree::
+   :caption: commands
+   :maxdepth: 2
+   
+   build_commands/build.rst
+
+
 
 
 .. image:: ../pictures/wall.png
