@@ -38,7 +38,7 @@ Once the mode is started, a console opens that takes in commands to build the st
    CONAN-build:
 
 It is recommended to use VMD(Visual Molecular Dynamics) in conjunction
-with the the build-tool. If VMD is installed it can be started using the ``vmd`` command. Make sure that no instance of VMD is running
+with the the build-tool. If VMD is installed it can be started using the ``vmd`` command (in CONAN). Make sure that no instance of VMD is running
 when CONAN is started.
 
 .. code-block:: none
@@ -46,16 +46,17 @@ when CONAN is started.
    CONAN-build: vmd
 
 once VMD is started, any changes to the structures are shown in the VMD window. If VMD is unavailable, the structures are
-saved in ``structures/structure.vmd``. All available commands and their usage are listed here:
+saved in ``structures/structure.xyz``. All available commands and their usage are listed here:
 
 .. toctree::
    :caption: commands
    :maxdepth: 2
    
    build_commands/build.rst
-
-
-
+   build_commands/functionalize.rst
+   build_commands/defects.rst
+   build_commands/add.rst
+   build_commands/undo.rst
 
 .. image:: ../pictures/wall.png
    :width: 40%
