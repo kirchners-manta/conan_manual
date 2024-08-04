@@ -57,6 +57,7 @@ saved in ``structures/structure.xyz``. All available commands and their usage ar
    build_commands/defects.rst
    build_commands/add.rst
    build_commands/undo.rst
+   build_commands/stack.rst
 
 .. image:: ../pictures/wall.png
    :width: 40%

@@ -31,6 +31,6 @@ example build:
 
 will yield the following structure:
 
-.. image:: ../../pictures/basic_pore.png
+.. image:: ../../../pictures/basic_pore.png
    :width: 40%
    :alt: Carbon Nanotube

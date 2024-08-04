@@ -22,6 +22,6 @@ example build:
 
 will yield the following structure:
 
-.. image:: ../../pictures/basic_boronnitride.png
+.. image:: ../../../pictures/basic_boronnitride.png
    :width: 40%
    :alt: Boronnitride

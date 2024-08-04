@@ -29,6 +29,6 @@ example build:
 
 will yield the following structure:
 
-.. image:: ../../pictures/basic_cnt.png
+.. image:: ../../../pictures/basic_cnt.png
    :width: 40%
    :alt: Carbon Nanotube
