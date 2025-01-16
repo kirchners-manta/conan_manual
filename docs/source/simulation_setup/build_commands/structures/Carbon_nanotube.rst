@@ -6,16 +6,16 @@ Carbon Nanotube
 the bond_length arg sets the length of the C-C bonds. The arg accepts a single floating point value.
 example: ``bond_length=1.55``. The default is ``bond_length=1.42``.
 
-* ``tube_length``
+* ``tube_length=``
 
 specifies the length of the tube in angstrom. The arg accepts a single floating point value.
 example: ``tube_length=10.0`` for a 10 Angstrom long tube.
 
-* ``tube_size``
+* ``tube_size=``
 
 specifies the width of the tube. The arg accepts a single integer ``m`` and creates a carbon nanotube with the
-standard cnt nomenclature cnt(m,m).
-example: ``tube_size=8``
+standard cnt nomenclature cnt(m,m). 
+example: ``tube_length=8``
 
 * ``armchair/zigzag``
 

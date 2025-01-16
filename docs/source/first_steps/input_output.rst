@@ -1,14 +1,14 @@
 Input & Output
-==============
+============
 
-The program can also be executed using an input file by specifying the ``-i`` flag and the input file in the command line.
+The program can also be executed using an input file by specifying the ``-i`` flag and the input file in the command line. 
 
 .. code-block:: none
 
-    $ CONAN -i input.log
+    $ python3.10 CONAn.py -i input.log
 
-The input file is to be structured in such a way that each question question, which is prompted by the program, is written down in a line.
-The program reads all entries which are the same line subsequent to the question as the given answer.
+The input file is to be structured in such a way that each question question, which is prompted by the program, is written down in a line. 
+The program reads all entries which are the same line subsequent to the question as the given answer. 
 This makes it possible to use the conan.log file of an previously conducted analysis as input file for a further analysis.
 
 

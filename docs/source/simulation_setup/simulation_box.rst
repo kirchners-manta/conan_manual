@@ -5,7 +5,7 @@ A simulation box can be set up using the ``-b`` flag in the command line.
 
 .. code-block:: none
 
-    $ CONAN -b
+    $ python3.10 CONAn.py -b
 
 With the simulation box mode activated, the user will be prompted to enter a string of letters to describe how the box should be set up.
 
@@ -33,7 +33,7 @@ With the simulation box mode activated, the user will be prompted to enter a str
      - pore_right.xyz
 
 The 'L' and 'R' keywords are needed, if two different pore structures shall be included in the simulation box.
-The provided xyz structures have to be in the folder where the program is executed, or in the ``structures`` folder generated beforehand.
+The provided xyz structures have to be in the folder where the program is executed, or in the ``structures`` folder generated beforehand. 
 The final simulation box will be saved as simbox.xyz in the present folder.
 
 
@@ -41,4 +41,8 @@ The final simulation box will be saved as simbox.xyz in the present folder.
    :width: 90%
    :class: align-center
 
-   Simulation box of an ionic liquid between carbon walls and a pore, built with the simulation box generator.
+    Simulation box of an ionic liquid between carbon walls and a pore, built with the simulation box generator.
+   
+
+
+
