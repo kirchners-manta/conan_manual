@@ -2,7 +2,7 @@ build
 =====
 
 
-The build command is used to build the initial structure. The type of generated structure is controlled using the ``type=`` argument.
+The build command is used to build the initial structure. The type of generated structure is controlled using the ``type`` argument.
 Currently available structures:
 
 * graphene  (creates a 2D-graphene sheet)
@@ -15,7 +15,7 @@ depending on which structure is created, different arguments and commands for fu
 .. toctree::
    :caption: structures
    :maxdepth: 2
-   
+
    structures/Graphene_sheet.rst
    structures/Boronnitride.rst
    structures/Carbon_nanotube.rst

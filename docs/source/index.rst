@@ -1,7 +1,7 @@
 .. figure:: pictures/CONAN_logo.png
    :width: 90%
    :class: align-center
-   
+
 .. note::
 
    This project is under active development.
@@ -54,3 +54,9 @@ Check out :doc:`first_steps/Installation` for more information on how to install
    :maxdepth: 2
 
    other/versions
+
+.. toctree::
+    :caption: API
+    :maxdepth: 2
+
+    api

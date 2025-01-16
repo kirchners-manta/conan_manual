@@ -1,4 +1,4 @@
-Structures
+Build module
 =================
 
 The mode is used to build carbon and boron nitride structures from scratch and print the xyz structures to a file.
@@ -15,7 +15,7 @@ This mode is started with the ``-c`` flag.
 
 .. code-block:: none
 
-    $ python3.10 CONAN.py -c
+    $ CONAN -c
 
 Once the mode is started, a console opens that takes in commands to build the structures:
 
@@ -31,7 +31,7 @@ Once the mode is started, a console opens that takes in commands to build the st
    ##                                       ##
    ###########################################
 
-   Find the documentation on the CONAn website: http://con-an.readthedocs.io
+   Find the documentation on the CONAN website: http://con-an.readthedocs.io
    If you use CONAN in your research, please cite the following paper:
    doi.org/10.1021/acs.jcim.3c01075
 
@@ -51,7 +51,7 @@ saved in ``structures/structure.xyz``. All available commands and their usage ar
 .. toctree::
    :caption: commands
    :maxdepth: 2
-   
+
    build_commands/build.rst
    build_commands/functionalize.rst
    build_commands/defects.rst
@@ -94,7 +94,3 @@ Structures are built by using the following default parameters:
 
 All set values can be freely adjusted by the user.
 All relevant values are printed to the terminal and to the ``conan.log`` file. The xyz structures are written to separate files in a ``structures`` folder.
-
-
-
-

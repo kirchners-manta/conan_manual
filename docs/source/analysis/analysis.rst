@@ -5,14 +5,14 @@ The trajectory analysis tool is automatically called, when a trajectory is loade
 
 .. code-block:: none
 
-    $ python3.10 CONAn.py -f trajectory.xyz
+    $ CONAN -f trajectory.xyz
 
 .. note::
-    The trajectory has to either xyz, pdb or LAMMPS (.lammpstrj or .lmp) format. 
+    The trajectory has to either xyz, pdb or LAMMPS (.lammpstrj or .lmp) format.
     If the trajectory is in xyz format, the user is prompted to enter the simulation box dimensions, as they are needed for some analyses.
     In the case of the pdb and LAMMPS format, the box dimensions are read directly from the trajectory.
 
-As a first step, the program identifies all rigid structures in the trajectory and characterizes them. 
+As a first step, the program identifies all rigid structures in the trajectory and characterizes them.
 The identification of solid structures is achieved by comparing the fist two frames of a given trajectory and identify all frozen atoms.
 The structures therefore have to stay frozen over the course of the simulation.
 The trajectory analysis part is divided into two main sections, the picture mode and the analysis mode, which includes all the analysis functions implemented.
@@ -29,8 +29,8 @@ For the analysis options implemented, the following parameters are potentially n
         The user is prompted to choose between the van der Waals radii and covalent radii.
         For all analysis options, the listed atomic masses are used.
 
-.. list-table:: 
-   :widths: 25 25 25 25 
+.. list-table::
+   :widths: 25 25 25 25
    :header-rows: 1
 
    * - element
@@ -115,4 +115,3 @@ For the analysis options implemented, the following parameters are potentially n
        DOI: doi.org/10.1021/j100785a001
 .. [2] B. Cordero, V. Gómez, A. Platero-Prats, M. Revés, J. Echeverría, E. Cremades, F. Barragán, S. Alvarez, Covalent radii revisited, Journal of the Chemical Society. Dalton Transactions (2008), 2832–2838
        DOI: doi.org/10.1039/b801115j
-
